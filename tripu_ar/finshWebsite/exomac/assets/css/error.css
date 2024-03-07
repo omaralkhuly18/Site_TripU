@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+#container {
+  overflow: hidden;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+  bottom: 10%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: "finshWebsite/exomac/assets/images/bg/404.png"; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: linear-gradient(to bottom right, #66fd9c, #f6fa60); */
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+#container .content {
+  position: absolute;
+  margin-top: 10px;
+  top: 80%;
+  max-width: 600px;
+  text-align: center;
+  width: 400px;
+}
+/* #container .content h2 {
+  font-size: 180px;
+  color: black;
+  line-height: 1em;
+} */
+#container .content h4 {
+  top: -62px;
+  position: absolute;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #000;
+  right: 18%;
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+}
+
+.button:hover::before {
+  color: #000;
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background-color: #1292ee;
+  transition: all 0.475s;
+}
+
+#container img {
+  height: 450px;
+  position: relative;
+}
+#container h4 {
+  position: absolute;
+  top: 10%;
+}
