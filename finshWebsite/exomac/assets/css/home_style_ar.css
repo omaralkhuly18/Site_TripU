@@ -5,6 +5,17 @@
   font-family: sans-serif;
 }
 
+.single-portfolio:hover .content{
+  -webkit-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    transform: translateY(-5%);
+    opacity: 1;
+}
+
+.single-portfolio .content .title a .svg-inline--fa.fa-arrow-left{
+  transform: rotate(43deg);
+}
+
 .profile_menu {
   left: 4%;
   right: auto;

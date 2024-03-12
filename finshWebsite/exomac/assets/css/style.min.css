@@ -46761,6 +46761,7 @@ only screen and (max-width: 767px) {
   z-index: 9;
   top: 70%;
   left: 0;
+  right: 1%;
   width: 100%;
   padding: 20px;
   -webkit-transition: all 0.5s ease 0s;
@@ -46771,7 +46772,7 @@ only screen and (max-width: 767px) {
 }
 
 .single-portfolio .content .title {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1;
   color: #fff;
   font-weight: 400;
@@ -46782,9 +46783,8 @@ only screen and (max-width: 767px) {
   font-family: Rubik, sans-serif;
 }
 
-.single-portfolio .content .title a img {
-  margin-left: 10px;
-  vertical-align: baseline;
+.single-portfolio .content .title a .svg-inline--fa.fa-arrow-left {
+  transform: rotate(132deg);
 }
 
 .single-portfolio .content .title a:hover {
@@ -46796,9 +46796,9 @@ only screen and (max-width: 767px) {
 }
 
 .single-portfolio:hover .content {
-  -webkit-transform: translateY(-5%);
-  -ms-transform: translateY(-5%);
-  transform: translateY(-5%);
+  -webkit-transform: translateX(-7%);
+  -ms-transform: translateX(-17%);
+  transform: translateX(-17%);
   opacity: 1;
 }
 
@@ -48773,6 +48773,7 @@ div#forgot-password {
 
   &.active .client-img img {
     max-width: 160px;
+    height: 153px;
     margin: 0 auto 24px;
     border: 0;
   }
@@ -48835,6 +48836,7 @@ div#forgot-password {
 
   .client-single.active .client-img img {
     max-width: 100px;
+    height: 100px;
   }
 
   .client-single.active .client-img::before {
@@ -48899,6 +48901,7 @@ div#forgot-password {
 
   .client-single.active .client-img img {
     max-width: 80px;
+    height: 81px;
   }
 
   .client-single.active .client-img::before {
@@ -48965,6 +48968,7 @@ div#forgot-password {
 
   .client-single.active .client-img img {
     max-width: 80px;
+    height: 80px;
   }
 
   .client-single.active .client-img::before {
@@ -49030,6 +49034,7 @@ div#forgot-password {
 
   .client-single.active .client-img img {
     max-width: 80px;
+    height: 80px;
   }
 
   .client-single.active .client-img::before {
