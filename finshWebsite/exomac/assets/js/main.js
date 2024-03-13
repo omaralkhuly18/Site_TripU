@@ -1,3 +1,17 @@
+function playNextVideo() {
+  if (currentVideoIndex < videos.length - 1) {
+    currentVideoIndex++;
+    videos[currentVideoIndex - 1].pause();
+    videos[currentVideoIndex].play();
+  }
+}
+
+videos.forEach(video => {
+  video.addEventListener('ended', playNextVideo);
+});
+
+videos[currentVideoIndex].play(); 
+
 (function ($) {
   "use strict";
 
@@ -315,24 +329,24 @@
   /*--
         Magnific Popup
     -----------------------------------*/
-  $(".video-popup").magnificPopup({
-    type: "iframe",
-  });
+  // $(".video-popup").magnificPopup({
+  //   type: "iframe",
+  // });
 
-  // Background Video Active
-  var htmlVideo = [
-    {
-      type: "video/mp4",
-      src: "assets/media/video/local-video.mp4",
-    },
-  ];
+  // // Background Video Active
+  // var htmlVideo = [
+  //   {
+  //     type: "video/mp4",
+  //     src: "assets/media/video/local-video.mp4",
+  //   },
+  // ];
 
-  var poster1 = "assets/media/video/local-video.jpg";
+  // var poster1 = "assets/media/video/local-video.jpg";
 
-  var demo1 = new vidim(".bg-video", {
-    src: htmlVideo,
-    poster: poster1,
-  });
+  // var demo1 = new vidim(".bg-video", {
+  //   src: htmlVideo,
+  //   poster: poster1,
+  // });
 
   /*--
         Scroll Up

@@ -32,7 +32,7 @@
         <div class="header-section header-transparent sticky-header section">
             <div class="header-inner">
                 <div class="container position-relative">
-                    <div class="mynav">
+                    <div class="row justify-content-between align-items-center">
                         <!-- Header Logo Start -->
                         <div class="col-xl-2 col-auto">
                             <div class="header-logo">
@@ -63,9 +63,8 @@
                                         </li>
                                         <li class="has-children">
                                             <a href="" role="button" data-bs-toggle="dropdown"
-                                                aria-expanded="false"><span id="profileName"
-                                                    class="menu-text">Profile</span></a>
-                                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
+                                                aria-expanded="false"><span class="menu-text">Profile</span></a>
+                                            <span class="menu-toggle"><i class="fa-solid fa-caret-down"></i></span>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <a href="profile_caption_new_en.html"><span class="menu-text">Edit
@@ -77,25 +76,10 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <!-- <li class="has-children">
-                      <a href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span class="menu-text">
-                          language
-                        </span></a>
-                      <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                      <ul class="sub-menu">
-                        <li>
-                          <a href="index.html"><span class="menu-text">English</span></a>
-                        </li>
-                        <li>
-                          <a href="index.html"><span class="menu-text">Arabic</span></a>
-                        </li>
-                      </ul>
-                    </li> -->
-                                        <li id="IsSignIn" class="has-children">
-                                            <a href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <span class="menu-text">SignIn</span></a>
-                                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
+                                        <li class="has-children">
+                                            <a href="#" role="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false"><span class="menu-text">SignIn</span></a>
+                                            <span class="menu-toggle"><i class="fa-solid fa-caret-down"></i></span>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <a href="authentication_en.html"><span class="menu-text">SignIn
@@ -135,81 +119,6 @@
                                         <li>
                                             <a href="contactUs_en.html"><span class="menu-text">Contact Us</span></a>
                                         </li>
-                                        <!-- start test-notification -->
-                                        <li class="has-children">
-                                            <a href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <span class="menu-text">
-                                                    <div class="bell-notificatin" current-count="8">
-                                                        <i class="fa-solid fa-bell"></i>
-                                                        <!-- animate__animated animate__flipInX -->
-                                                    </div>
-                                                </span></a>
-                                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <div class="notification-item">
-                                                        <img src="finshWebsite/exomac/assets/images/team/team-1.jpg"
-                                                            alt="" />
-                                                        <div class="notification-text marginrtl">
-                                                            <h4>احمد عادل</h4>
-                                                            <p>كيف يمكنني مساعدك</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="notification-item">
-                                                        <img src="finshWebsite/exomac/assets/images/team/team-2.jpg"
-                                                            alt="" />
-                                                        <div class="notification-text marginrtl">
-                                                            <h4>احمد عادل</h4>
-                                                            <p>كيف يمكنني مساعدك</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="notification-item">
-                                                        <img src="finshWebsite/exomac/assets/images/team/team-2.jpg"
-                                                            alt="" />
-                                                        <div class="notification-text marginrtl">
-                                                            <h4>احمد عادل</h4>
-                                                            <p>كيف يمكنني مساعدك</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="notification-item">
-                                                        <div class="notification-text flexcenter">
-                                                            <a href="profile_caption_new_en.html"
-                                                                class="btn_notification btn-primary btn-hover-secondary paddingsbtn">
-                                                                All
-                                                            </a>
-                                                            <!-- <a class="" href="#">View All</a> -->
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <!-- end test-notification -->
-                                        <!-- start language -->
-                                        <li class="has-children">
-                                            <a href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <span class="menu-text">
-                                                    <i class="fa-solid fa-earth-americas stylesvglang"></i> </span></a>
-                                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="download_en.html"><span
-                                                            class="menu-text">English</span></a>
-                                                </li>
-                                                <li>
-                                                    <a href="download_fr.html"><span class="menu-text">French</span></a>
-                                                </li>
-                                                <li>
-                                                    <a href="download_ar.html"><span class="menu-text">Arabic</span></a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <!-- end language -->
                                     </ul>
                                 </nav>
                             </div>
@@ -223,195 +132,65 @@
                                 <!-- Header Login End -->
                             </div>
                             <!-- Header Search End -->
-                            <!-- Start logout -->
-                            <div id="logout">
-                                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                            <div class="bell-notificatin" current-count="8" onclick="menuToggleNotification()">
+                                <i class="fa-solid fa-bell"></i>
+                                <!-- animate__animated animate__flipInX -->
                             </div>
-                            <!-- End logout -->
-                            <!-- <div
-                  class="bell-notificatin"
-                  current-count="8"
-                  onclick="menuToggleNotification()"
-                >
-                  <i class="fa-solid fa-bell"></i>
-                </div> -->
-                            <!-- <div class="profile_menu_notification">
-                  <div class="notification-item">
-                    <img
-                      src="finshWebsite/exomac/assets/images/team/team-1.jpg"
-                      alt=""
-                    />
-                    <div class="notification-text marginrtl">
-                      <h4>احمد عادل</h4>
-                      <p>كيف يمكنني مساعدك</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <img
-                      src="finshWebsite/exomac/assets/images/team/team-2.jpg"
-                      alt=""
-                    />
-                    <div class="notification-text marginrtl">
-                      <h4>كمال علي</h4>
-                      <p>كم هذه الرحلة</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <img
-                      src="finshWebsite/exomac/assets/images/team/team-3.jpg"
-                      alt=""
-                    />
-                    <div class="notification-text marginrtl">
-                      <h4>احمد عامر</h4>
-                      <p>آسف! إنها رحلة مكلفة للغاية</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <img
-                      src="finshWebsite/exomac/assets/images/team/team-4.jpg"
-                      alt=""
-                    />
-                    <div class="notification-text marginrtl">
-                      <h4>عمر باسم</h4>
-                      <p>أنا في انتظارك يا سيدي</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <div class="notification-text flexcenter">
-                      <a
-                        href="profile_caption_new_en.html"
-                        class="btn_notification btn-primary btn-hover-secondary paddingsbtn"
-                      >
-                        عرض الكل
-                      </a>
-                    </div>
-                  </div>
-                </div> -->
-                            <!-- <div class="user_image has-children" onclick="menuToggle();">
-                  <img
-                    src="finshWebsite/exomac/assets/images/author/blog-author.png"
-                    alt=""
-                  />
-                  <div class="profile_menu">
-                    <ul class="sub-menu">
-                      <li>
-                        <a href="profile_caption_new_ar.html"
-                          ><span class="menu-text"
-                            >Edit Profile Caption</span
-                          ></a
-                        >
-                      </li>
-                      <li>
-                        <a href="profile_client_new_ar.html"
-                          ><span class="menu-text">
-                            Edit Profile client</span
-                          ></a
-                        >
-                      </li>
-
-                      <li>
-                        <a href="forget_password_ar.html"
-                          ><span class="menu-text">ForgetPassword </span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="reset_password_ar.html"
-                          ><span class="menu-text">ResetPassword </span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="wallet_ar.html"
-                          ><span class="menu-text">Wallet</span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="authentication_ar.html"
-                          ><span class="menu-text">Logout </span></a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div> -->
-                            <!-- language start -->
-                            <!-- <div onclick="menuToggleLanguage();" class="">
-                  <i class="fa-solid fa-earth-americas stylesvglang"></i>
-                  <div class="profile_menu_Language">
-                    <ul class="sub-menu">
-                      <li>
-                        <a href="home_en.html"
-                          ><span class="menu-text">English</span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="index.html"
-                          ><span class="menu-text">Arabic</span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="home_fr.html"
-                          ><span class="menu-text">French</span></a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div> -->
-                            <!-- language end -->
-                            <!-- language end-->
-                            <!-- <div
-                  class="notification-box animate__animated animate__flipInX"
-                  style="display: none"
-                >
-                  <div class="notification-item">
-                    <img
-                      src="finshWebsite/exomac/assets/images/team/team-1.jpg"
-                      alt=""
-                    />
-                    <div class="notification-text">
-                      <h4>Ahmed Adel</h4>
-                      <p>how can I help you</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <img
-                      src="finshWebsite/exomac/assets/images/team/team-2.jpg"
-                      alt=""
-                    />
-                    <div class="notification-text">
-                      <h4>Kmale Ali</h4>
-                      <p>how much this trip</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <img
-                      src="finshWebsite/exomac/assets/images/team/team-3.jpg"
-                      alt=""
-                    />
-                    <div class="notification-text">
-                      <h4>Ahmed Amer</h4>
-                      <p>sorry! it's very expensive trip</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <img
-                      src="finshWebsite/exomac/assets/images/team/team-4.jpg"
-                      alt=""
-                    />
-                    <div class="notification-text">
-                      <h4>Omer basem</h4>
-                      <p>I am waiting you sir</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <div class="notification-text flexcenter">
-                      <a
-                        href="sidebar.html?section=section2"
-                        onclick="redirectToSectionNotification()"
-                        class="btn btn-primary btn-hover-secondary"
-                        >View All</a
-                      >
-                    </div>
-                  </div>
-                </div> -->
+                            <div class="profile_menu_notification">
+                                <div class="notification-item">
+                                    <img src="finshWebsite/exomac/assets/images/team/team-1.jpg" alt="" />
+                                    <div class="notification-text marginrtl">
+                                        <h4>Ahmed Adel</h4>
+                                        <p>How can I help you</p>
+                                    </div>
+                                </div>
+                                <div class="notification-item">
+                                    <img src="finshWebsite/exomac/assets/images/team/team-2.jpg" alt="" />
+                                    <div class="notification-text marginrtl">
+                                        <h4>Kamal Ali</h4>
+                                        <p>How much is this trip</p>
+                                    </div>
+                                </div>
+                                <div class="notification-item">
+                                    <img src="finshWebsite/exomac/assets/images/team/team-3.jpg" alt="" />
+                                    <div class="notification-text marginrtl">
+                                        <h4>Ahmed Amer</h4>
+                                        <p>Sorry! It's a very expensive trip</p>
+                                    </div>
+                                </div>
+                                <div class="notification-item">
+                                    <img src="finshWebsite/exomac/assets/images/team/team-4.jpg" alt="" />
+                                    <div class="notification-text marginrtl">
+                                        <h4>Omar Bassem</h4>
+                                        <p>I'm waiting for you, sir</p>
+                                    </div>
+                                </div>
+                                <div class="notification-item">
+                                    <div class="notification-text flexcenter">
+                                        <a href="profile_caption_new_en.html"
+                                            class="btn_notification btn-primary btn-hover-secondary paddingsbtn">
+                                            View all
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- language start-->
+                            <div onclick="menuToggleLanguage();" class="">
+                                <i class="fa-solid fa-earth-americas stylesvglang"></i>
+                                <div class="profile_menu_Language">
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="download_en.html"><span class="menu-text">English</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="download_ar.html"><span class="menu-text">العربيه</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="download_fr.html"><span class="menu-text">French</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                             <!-- Header Mobile Menu Toggle Start -->
                             <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
                                 <button class="toggle">
@@ -423,18 +202,6 @@
                             <!-- Header Mobile Menu Toggle End -->
                         </div>
                         <!-- Header Main Menu End -->
-
-                        <!-- Header Right Start -->
-                        <!-- <div class="col-xl-1 col d-none d-sm-flex order-1"> -->
-                        <!-- <a href="#" class="btn btn-light btn-hover-primary"
-                  >Login
-                  <i class="fa-regular fa-user"></i>
-                </a> -->
-
-                        <!-- </div> -->
-                        <!-- profile_menu -->
-
-                        <!-- profile_menu -->
                         <!-- Header Right End -->
                     </div>
                 </div>
@@ -450,9 +217,9 @@
             <div class="sidebar-search-input">
                 <form action="#">
                     <div class="form-search">
-                        <input id="search" class="input-text" value="" placeholder="search" type="search" />
+                        <input id="search" class="input-text" value="" placeholder="" type="search" />
                         <button>
-                            <i class="pe-7s-close"></i>
+                            <i class="fa fa-search"></i>
                         </button>
                     </div>
                 </form>
@@ -482,14 +249,9 @@
                                             </div>
                                             <a href="usedApp_en.html" class="btn btn-primary btn-hover-secondary">Get
                                                 Started</a>
-                                            <!-- <a
-                          href="#"
-                          class="btn btn-outline-white btn-hover-primary"
-                        >
-                          تعلم المزيد
-                        </a> -->
                                         </div>
                                     </div>
+                                    <!-- Intro One Content End -->
                                 </div>
                             </div>
                         </div>
@@ -514,12 +276,6 @@
                                             </div>
                                             <a href="usedApp_en.html" class="btn btn-primary btn-hover-secondary">Get
                                                 Started</a>
-                                            <!-- <a
-                          href="#"
-                          class="btn btn-outline-white btn-hover-primary"
-                        >
-                          تعلم المزيد
-                        </a> -->
                                         </div>
                                     </div>
                                     <!-- Intro One Content End -->
@@ -544,12 +300,6 @@
                                             </div>
                                             <a href="usedApp_en.html" class="btn btn-primary btn-hover-secondary">Get
                                                 Started</a>
-                                            <!-- <a
-                          href="#"
-                          class="btn btn-outline-white btn-hover-primary"
-                        >
-                          تعلم المزيد
-                        </a> -->
                                         </div>
                                     </div>
                                     <!-- Intro One Content End -->
@@ -567,6 +317,7 @@
             </div>
         </div>
         <!-- Slider/Intro Section End -->
+
         <!-- Start Work Details -->
         <div class="section section-padding section_tripu">
             <div class="container">
@@ -592,26 +343,6 @@
                                 </a>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-6 col-md-6 col-12 mt-lg-0 mt-md-0 mt-10">
-                            <div class="thumbnail" data-aos="fade-up">
-                                <a href="https://play.google.com/store/apps/details?id=com.user.tripu">
-                                    <img class="w-100" src="finshWebsite/exomac/assets/images/socialMedia/44.jpg"
-                                        alt="Agency" />
-                                </a>
-                                <a class="tripU_download" role="button" data-toggle="tooltip" title=" تطبيق العميل "
-                                    href="https://play.google.com/store/apps/details?id=com.user.tripu">
-                                    <div class="down_tripu">
-                                        <div class="downlo_tripu">
-                                            <i class="fa-solid fa-arrow-down" id="icons_down_tripu"></i>
-                                            <p class="paragraph_tripu">
-                                                Download client app
-                                            </p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <hr> -->
                         <div class="col-lg-6 col-md-6 col-12 mt-lg-0 mt-md-0 mt-10">
                             <div class="thumbnail" data-aos="fade-up">
                                 <a href="https://play.google.com/store/apps/details?id=com.tripu.tripu&pli=1">
@@ -631,31 +362,13 @@
                                 </a>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-6 col-md-6 col-12 mt-lg-0 mt-md-0 mt-10">
-                            <div class="thumbnail" data-aos="fade-up">
-                                <a href="https://play.google.com/store/apps/details?id=com.tripu.tripu&pli=1">
-                                    <img class="w-100" src="finshWebsite/exomac/assets/images/socialMedia/6.jpg"
-                                        alt="Agency" />
-                                </a>
-                                <a class="tripU_download" role="button" data-toggle="tooltip" title=" تطبيق الكابتن "
-                                    href="https://play.google.com/store/apps/details?id=com.tripu.tripu&pli=1">
-                                    <div class="down_tripu">
-                                        <div class="downlo_tripu">
-                                            <i class="fa-solid fa-arrow-down" id="icons_down_tripu"></i>
-                                            <p class="paragraph_tripu">
-                                                Download captain app
-                                            </p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
                 <!-- End Gallery Area -->
             </div>
         </div>
         <!-- end Work Details -->
+
         <div class="footer-section section" data-bg-color="#000" data-bg-color="#030e22">
             <div class="container">
                 <!-- Footer Top Widgets Start -->
@@ -669,26 +382,12 @@
 
                             <div class="footer-widget-content">
                                 <div class="content-footer">
-                                    <p><a href="tel:+0201111579400">(02) 01110777579</a></p>
+                                    <p><a href="tel:+0201111579400">(02) 01111579400</a></p>
                                     <p><a href="mailto:info@tripu.net">info@tripu.net</a></p>
                                     <!-- <p>
-                    Address : Will be determined later Faisal 
-                  </p> -->
-                                    <div class="socialMedia">
-                                        <a href="https://www.facebook.com/profile.php?id=61554724552976"><i
-                                                class="fa-brands fa-facebook"></i></a>
-                                        <a href="https://www.instagram.com/tripu534/"><i
-                                                class="fa-brands fa-instagram"></i></a>
-                                        <a href="https://www.tiktok.com/@tripu935"><i
-                                                class="fa-brands fa-tiktok"></i></a>
-                                        <!-- <a href="#"><i class="fa-brands fa-youtube"></i></a> -->
-                                        <a
-                                            href="https://accounts.snapchat.com/accounts/v2/login?continue=%2Faccounts%2Fsso%3Fclient_id%3Dweb-accounts%26referrer%3Dhttps%253A%252F%252Faccounts.snapchat.com%252Fv2%252Fwelcome"><i
-                                                class="fa-brands fa-snapchat"></i></a>
-                                        <a href="https://wa.me/201110777579"><i class="fa-brands fa-whatsapp"
-                                                style="color: #0c9069;"></i></a>
-
-                                    </div>
+                      Address : 1 Mohamed Hassan Al Mariouteya Faisal Street -
+                      Al Haram
+                    </p> -->
                                 </div>
                             </div>
                         </div>
@@ -718,20 +417,20 @@
 
                     <!-- Footer Widget Start -->
                     <!-- <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
-              <div class="footer-widget">
-                <h4 class="footer-widget-title">Products</h4>
-                <div class="footer-widget-content">
-                  <ul>
-                    <li><a href="#">Elementor Guru</a></li>
-                    <li><a href="#">WooLentor Pro</a></li>
-                    <li>
-                      <a href="#">Plugins <span class="ft-badge">New</span></a>
-                    </li>
-                    <li><a href="#">Page Builder</a></li>
-                  </ul>
+                <div class="footer-widget">
+                  <h4 class="footer-widget-title">Products</h4>
+                  <div class="footer-widget-content">
+                    <ul>
+                      <li><a href="#">Elementor Guru</a></li>
+                      <li><a href="#">WooLentor Pro</a></li>
+                      <li>
+                        <a href="#">Plugins <span class="ft-badge">New</span></a>
+                      </li>
+                      <li><a href="#">Page Builder</a></li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            </div> -->
+              </div> -->
                     <!-- Footer Widget End -->
 
                     <!-- Footer Widget Start -->
@@ -740,10 +439,12 @@
                             <h4 class="footer-widget-title">About</h4>
                             <div class="footer-widget-content">
                                 <ul>
-                                    <li><a href="featares_en.html">Features</a></li>
+                                    <!-- <li><a href="featares_en.html">Features</a></li> -->
                                     <li><a href="our_partners_en.html">Our Partners</a></li>
                                     <li><a href="policy_en.html">Policy</a></li>
-                                    <li><a href="pricing_en.html">Pricing</a></li>
+                                    <!-- <li><a href="captain_policy.html">Politique du capitaine</a></li>
+                    <li><a href="user_policy.html">Politique d'utilisation</a></li>
+                    <li><a href="pricing_en.html">Pricing</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -751,7 +452,7 @@
                     <!-- Footer Widget End -->
 
                     <!-- Footer Widget Start -->
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-widget">
                             <h4 class="footer-widget-title">Contact</h4>
                             <div class="footer-widget-content">
@@ -766,18 +467,18 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Footer Widget End -->
                     <!-- google_play&AppStore -->
                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
                         <div class="footer-widget">
                             <a href="#">
                                 <img src="finshWebsite/exomac/assets/images/project/AppStore.png" />
                             </a>
-                            <a role="button" href="download_en.html">
+                            <a href="download_en.html" target="_blank">
                                 <img src="finshWebsite/exomac/assets/images/project/googlePlay.png" />
                             </a>
                         </div>
                     </div>
-                    <!-- Footer Widget End -->
                 </div>
                 <!-- Footer Top Widgets End -->
 
@@ -785,9 +486,9 @@
                 <div class="row">
                     <div class="col">
                         <p class="copyright">
-                            <!-- © 2024 silver-triangle<strong>TripU</strong> Made with
-                <i class="fas fa-heart text-danger" aria-hidden="true"></i> by
-                <a href="#"></a>. -->
+                            <!-- © 2024 <strong>TripU</strong> Made with
+                  <i class="fas fa-heart text-danger" aria-hidden="true"></i> by
+                  <a href="#"></a>. -->
                             <small>&copy; Copyright 2024 silver-triangle</small>
                         </p>
                     </div>
@@ -808,7 +509,7 @@
         <div class="site-main-mobile-menu-inner">
             <div class="mobile-menu-header">
                 <div class="mobile-menu-logo">
-                    <a href="index.html">
+                    <a href="home_en.html">
                         <img src="finshWebsite/images/التسليم/التسليم/موكاب/noBackground.png" alt="" />
                     </a>
                 </div>
@@ -823,7 +524,7 @@
                 <nav class="site-mobile-menu">
                     <ul>
                         <li>
-                            <a href="index.html"><span class="menu-text">Home</span></a>
+                            <a href="home_en.html"><span class="menu-text">Home</span></a>
                         </li>
                         <li>
                             <a href="offer_en.html"><span class="menu-text">Offer</span></a>
@@ -836,7 +537,7 @@
                         </li>
                         <li class="has-children">
                             <a href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span
-                                    id="profileName" class="menu-text">Profile</span></a>
+                                    class="menu-text">Profile</span></a>
                             <span class="menu-toggle"><i class="fa-solid fa-caret-down"></i></span>
                             <ul class="sub-menu">
                                 <li>
@@ -844,7 +545,7 @@
                                             Caption</span></a>
                                 </li>
                                 <li>
-                                    <a href="profile_client_en.html"><span class="menu-text">Edit Profile
+                                    <a href="profile_client_new_en.html"><span class="menu-text">Edit Profile
                                             Client</span></a>
                                 </li>
                             </ul>
@@ -858,14 +559,14 @@
                                     <a href="download_en.html"><span class="menu-text">English</span></a>
                                 </li>
                                 <li>
-                                    <a href="download_fr.html"><span class="menu-text">French</span></a>
+                                    <a href="download_ar.html"><span class="menu-text">العربيه</span></a>
                                 </li>
                                 <li>
-                                    <a href="download_ar.html"><span class="menu-text">Arabic</span></a>
+                                    <a href="download_fr.html"><span class="menu-text">French</span></a>
                                 </li>
                             </ul>
                         </li>
-                        <li id="IsSignIn" class="has-children">
+                        <li class="has-children">
                             <a href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span class="menu-text">SignIn</span></a>
                             <span class="menu-toggle"><i class="fa-solid fa-caret-down"></i></span>
@@ -884,7 +585,7 @@
                                 <span class="menu-text">Download</span>
                             </a>
                             <span class="menu-toggle">
-                                <i class="far fa-angle-down"></i>
+                                <i class="fa-solid fa-caret-down"></i>
                             </span>
                             <ul class="sub-menu">
                                 <li>

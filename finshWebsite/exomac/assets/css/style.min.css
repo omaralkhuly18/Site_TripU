@@ -44855,6 +44855,8 @@ textarea:focus {
 
 a.btn_notification {
   color: wheat !important;
+  padding: 3%;
+  border-radius: 2.5rem;
 }
 
 .site-main-menu .mega-menu li a .menu-text,
@@ -48241,6 +48243,7 @@ swiper-slide img {
 }
 
 .flexcenter {
+  width: 100%;
   margin: auto;
   align-items: center;
   justify-content: center;
