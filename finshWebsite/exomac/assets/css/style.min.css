@@ -50116,16 +50116,19 @@ div#forgot-password {
   -o-transform: scale(1.20);
 }
 
+/* video style start */
+
 .video-container {
   position: relative;
   width: 100%;
   height: 400px;
 }
 
-.video-container video {
+.video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
+/* video style end */
