@@ -48378,7 +48378,17 @@ swiper-slide img {
   }
 
   .accordion .item .item-header h2 button.btn.btn-link {
-    width: 168px !important;
+    width: 100% !important;
+  }
+
+  .pagination li a {
+    width: 30px;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+
+  ul.list-verify{
+    padding-left: 0 !important;
   }
 }
 
@@ -50029,19 +50039,37 @@ div#forgot-password {
   .mynav {
     justify-content: space-between;
   }
-  .notification-item img{
+
+  .notification-item img {
     margin-left: 3px;
     margin-right: 5px;
     width: 47px;
     height: 45px;
   }
-  .flexcenter{
+
+  .flexcenter {
     width: 50%;
   }
-  .car-images p, .car-information p{
+
+  .car-images p,
+  .car-information p {
     letter-spacing: 0px;
     word-spacing: 0px;
     font-size: 17px;
+  }
+
+  .input-info-box {
+    width: 225px !important;
+  }
+
+  .content_close_acount {
+    margin-left: auto;
+    margin-bottom: 8%;
+    padding: 0;
+  }
+
+  .verified_content .varify-box {
+    padding: 20px 15px 30px !important
   }
 }
 
@@ -50145,4 +50173,5 @@ div#forgot-password {
   width: 100%;
   height: 100%;
 }
+
 /* video style end */

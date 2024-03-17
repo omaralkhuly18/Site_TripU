@@ -1394,7 +1394,7 @@ p {
 }
 @media only screen and (min-width: 220px) and (max-width: 359px) {
   .form-control-caption {
-    font-size: 9px;
+    font-size: 13px;
     width: 100% !important;
   }
 }
