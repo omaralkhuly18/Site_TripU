@@ -5,14 +5,14 @@
   font-family: sans-serif;
 }
 
-.single-portfolio:hover .content{
+.single-portfolio:hover .content {
   -webkit-transform: translateY(-5%);
-    -ms-transform: translateY(-5%);
-    transform: translateY(-5%);
-    opacity: 1;
+  -ms-transform: translateY(-5%);
+  transform: translateY(-5%);
+  opacity: 1;
 }
 
-.single-portfolio .content .title a .svg-inline--fa.fa-arrow-left{
+.single-portfolio .content .title a .svg-inline--fa.fa-arrow-left {
   transform: rotate(43deg);
 }
 
@@ -145,8 +145,8 @@
   }
 
   .profile_menu_notification {
-    right: 37%;
-    width: 44% !important;
+    right: 39%;
+    width: 59% !important;
   }
 }
 
@@ -165,8 +165,13 @@
   }
 
   .profile_menu_notification {
-    right: 77%;
-    width: 20% !important;
+    right: 35%;
+    width: 60% !important;
+  }
+  .notification-item img{
+    width: 40px !important;
+    height: 42px !important;
+    margin-right: 5px !important;
   }
 }
 
@@ -515,17 +520,20 @@ div.content-personal {
     margin: 0 -2% !important;
   } */
 
-  .image_content{
+  .image_content {
     display: flex;
   }
-  .sidebar .image_content img{
+
+  .sidebar .image_content img {
     margin: 0 auto !important;
   }
+
   div.content-personal {
     margin-left: -26%;
     margin-right: -3%;
     padding: 1px;
   }
+
   .dashbordcaption {
     margin: 0 -2%;
   }
@@ -550,9 +558,9 @@ div.content-personal {
 
 #home h2 {
   text-align: center;
-}  
+}
 
-.ArabicInHer{
+.ArabicInHer {
   text-align: right !important;
 }
 
@@ -591,19 +599,19 @@ div.content-personal {
 }
 
 @media screen and (max-width: 1326px) and (min-width: 992px) {
-  .down_tripu{
+  .down_tripu {
     width: 45% !important;
   }
 }
 
-@media screen and (max-width: 992px) and (min-width: 768px){
-  .down_tripu{
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .down_tripu {
     width: 60% !important;
-  } 
+  }
 }
 
 @media screen and (max-width: 768px) and (min-width: 500px) {
-  .down_tripu{
+  .down_tripu {
     width: 45% !important;
   }
 
@@ -613,23 +621,29 @@ div.content-personal {
 }
 
 @media screen and (max-width: 500px) and (min-width: 450px) {
-  .down_tripu{
+  .down_tripu {
     width: 50% !important;
   }
 }
 
 @media screen and (max-width: 450px) and (min-width: 350px) {
-  .down_tripu{
+  .down_tripu {
     width: 60% !important;
   }
 }
 
 @media screen and (max-width: 350px) and (min-width: 230px) {
-  .down_tripu{
+  .down_tripu {
     width: 100% !important;
   }
+
   p.paragraph_tripu {
     font-size: 19px;
+  }
+
+  .left-container .number,
+  .right-container .number {
+    right: -9% !important;
   }
 }
 
@@ -641,11 +655,8 @@ div.content-personal {
   right: 50%;
 }
 
-/* .left-container .number {
-  right: 94%;
-} */
 .left-container .number {
-  right: 92%;
+  right: 95%;
 }
 
 .rightArrow {
@@ -672,6 +683,14 @@ div.content-personal {
   border-left: 15px solid #fff;
 }
 
+.timeline::before {
+  right: 49% !important;
+}
+@media only screen and (max-width: 767px) {
+  .stepperBox {
+    padding: 0 0.9% !important;
+  }
+}
 @media screen and (max-width: 600px) {
   .timeline {
     margin: 50px auto;
@@ -689,15 +708,21 @@ div.content-personal {
     right: 0%;
   }
 
-  /* .left-container .number,
-  .right-container .number {
-    right: 460px;
-  } */
   .leftArrow,
   .rightArrow {
     border-right: 15px solid #fff;
     border-left: 0;
     right: 405px;
+  }
+
+  .timeline::before {
+    left: 100% !important;
+    right: auto !important;
+  }
+
+  .left-container .number,
+  .right-container .number {
+    right: -3% !important;
   }
 }
 
@@ -807,4 +832,10 @@ div.content-personal {
   .mynav {
     justify-content: space-between;
   }
+}
+
+/* scroll top style start*/
+.scroll-top {
+  left: 30px !important;
+  right: auto !important;
 }

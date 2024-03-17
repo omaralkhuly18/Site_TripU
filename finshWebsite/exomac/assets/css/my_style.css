@@ -704,8 +704,8 @@
     width: 35% !important;
   }
   .profile_menu_notification {
-    right: 12%;
-    width: 126px !important;
+    right: 4%;
+    width: 65% !important;
   }
 }
 .profile_menu_notification.active,
@@ -1645,7 +1645,7 @@ label.error,
   background-color: #fff;
   color: #1292ee;
   position: absolute;
-  width: 40px;
+  width: 30px;
   border-radius: 50%;
   font-size: 18px;
   font-weight: bold;
@@ -1723,7 +1723,7 @@ label.error,
   }
   .left-container .number,
   .right-container .number {
-    left: 10px;
+    left: -9px;
   }
   .leftArrow,
   .rightArrow {
