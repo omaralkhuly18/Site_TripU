@@ -1,8 +1,22 @@
+@font-face {
+  font-family: 'Tajawal';
+  src: url('../fonts/Tajawal/Tajawal-Medium.eot');
+  src: url('../fonts/Tajawal/Tajawal-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tajawal/Tajawal-Medium.woff2') format('woff2'),
+      url('../fonts/Tajawal/Tajawal-Medium.woff') format('woff'),
+      url('../fonts/Tajawal/Tajawal-Medium.ttf') format('truetype'),
+      url('../fonts/Tajawal/Tajawal-Medium.svg#Tajawal-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: "Tajawal", sans-serif !important;;
 }
 
 /* offer */

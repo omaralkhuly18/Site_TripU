@@ -22,10 +22,10 @@
         </swiper>
         <!-- pagination class -->
         <div class="home-slider-prev swiper-button-prev main-slider-nav">
-            <i class="fal fa-angle-left"></i>
+            <i class="fa-solid fa-angle-left"></i>
         </div>
         <div class="home-slider-next swiper-button-next main-slider-nav">
-            <i class="fal fa-angle-right"></i>
+            <i class="fa-solid fa-angle-right"></i>
         </div>
     </div>
 </template>

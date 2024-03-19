@@ -2,7 +2,7 @@
     <div class="main-search-active" id="search-popup">
         <div class="sidebar-search-icon">
             <button class="search-close" @click="toggleClass('removeClass', 'search-popup-open')">
-                <i class="pe-7s-close"></i>
+                <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
         <div class="sidebar-search-input">
@@ -10,7 +10,7 @@
                 <div class="form-search">
                     <input id="search" class="input-text" value="" placeholder="" type="search">
                     <button>
-                        <i class="pe-7s-close"></i>
+                        <i class="fa-solid fa-xmark"></i>
                     </button>
                 </div>
             </form>

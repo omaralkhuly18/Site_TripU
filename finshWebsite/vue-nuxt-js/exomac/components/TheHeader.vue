@@ -25,7 +25,7 @@
                             <!-- Header Login Start -->
                             <div class="header-search">
                                 <a href="javascript:void(0)" class="header-search-toggle" @click="toggleClass('addClass', 'search-popup-open')">
-                                    <i class="pe-7s-search pe-2x pe-va"></i>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
                                 </a>
                             </div>
                             <!-- Header Login End -->

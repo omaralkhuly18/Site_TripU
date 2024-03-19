@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap'); */
+@font-face {
+  font-family: 'Tajawal';
+  src: url('../fonts/Tajawal/Tajawal-Medium.eot');
+  src: url('../fonts/Tajawal/Tajawal-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tajawal/Tajawal-Medium.woff2') format('woff2'),
+      url('../fonts/Tajawal/Tajawal-Medium.woff') format('woff'),
+      url('../fonts/Tajawal/Tajawal-Medium.ttf') format('truetype'),
+      url('../fonts/Tajawal/Tajawal-Medium.svg#Tajawal-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cairo', sans-serif !important;
+  /* font-family: 'Cairo', sans-serif !important; */
+  font-family: "Tajawal", sans-serif !important;;
 }
 
 .single-portfolio:hover .content {
@@ -153,7 +166,7 @@
 
 @media screen and (max-width: 300px) and (min-width: 220px) {
   .profile_menu_Language {
-    left: -6%;
+    left: 10%;
   }
 
   .profile_menu {
@@ -852,4 +865,9 @@ div.content-personal {
 .scroll-top {
   left: 30px !important;
   right: auto !important;
+}
+
+/* style buttons download app start */
+a.link_click_of_down {
+  padding: 1% 0% 0% 7% !important;
 }

@@ -5,7 +5,19 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+
+ @font-face {
+  font-family: 'Tajawal';
+  src: url('../fonts/Tajawal/Tajawal-Medium.eot');
+  src: url('../fonts/Tajawal/Tajawal-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Tajawal/Tajawal-Medium.woff2') format('woff2'),
+      url('../fonts/Tajawal/Tajawal-Medium.woff') format('woff'),
+      url('../fonts/Tajawal/Tajawal-Medium.ttf') format('truetype'),
+      url('../fonts/Tajawal/Tajawal-Medium.svg#Tajawal-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --bs-blue: #0d6efd;
@@ -33,14 +45,14 @@
   --bs-white-opacity-50: rgba(255, 255, 255, 0.5);
   --bs-white: #fff;
   --bs-overlay-black: #030f27;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+  /* --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg,
       rgba(255, 255, 255, 0.15),
-      rgba(255, 255, 255, 0));
+      rgba(255, 255, 255, 0)); */
 }
 
 *,
@@ -48,11 +60,13 @@
 ::before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: "Tajawal", sans-serif !important;
 }
 
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  /* font-family: var(--bs-font-sans-serif); */
+  font-family: "Tajawal", sans-serif !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -41425,7 +41439,7 @@ svg:not(:root) {
   bottom: 60px;
 }
 
-.scroll-top i {
+.scroll-top svg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41619,7 +41633,7 @@ svg:not(:root) {
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
-  font-family: "Font Awesome 5 Pro";
+      font-family: "Font Awesome 5 Pro" !important;;
   font-weight: 300;
   content: "\f104";
 }
@@ -43272,7 +43286,7 @@ textarea:focus {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-family: "Font Awesome 5 Pro";
+      font-family: "Font Awesome 5 Pro" !important;;
   font-weight: 900;
   content: "\f107";
   right: 16px;
@@ -44782,7 +44796,7 @@ textarea:focus {
 }
 
 .site-main-menu>ul>li.has-children>a .menu-text::after {
-  font-family: "Font Awesome 5 Pro";
+      font-family: "Font Awesome 5 Pro" !important;;
   font-size: 8px;
   font-weight: 900;
   margin-left: 10px;
@@ -44876,7 +44890,7 @@ a.btn_notification {
 
 .site-main-menu .mega-menu li.has-children>a .menu-text::after,
 .site-main-menu .sub-menu li.has-children>a .menu-text::after {
-  font-family: "Font Awesome 5 Pro";
+      font-family: "Font Awesome 5 Pro" !important;;
   font-size: 8px;
   font-weight: 900;
   margin-left: auto;
@@ -45694,8 +45708,7 @@ only screen and (max-width: 767px) {
   display: none;
 }
 
-.intro-slider .main-slider-nav i {
-  font-size: 40px;
+.intro-slider .main-slider-nav svg {
   line-height: 1;
   vertical-align: middle;
 }
@@ -45711,8 +45724,8 @@ only screen and (max-width: 767px) {
     line-height: 80px;
   }
 
-  .intro-slider .main-slider-nav i {
-    font-size: 30px;
+  .intro-slider .main-slider-nav svg {
+    width: 20%;
   }
 }
 
@@ -45723,8 +45736,8 @@ only screen and (max-width: 767px) {
     line-height: 60px;
   }
 
-  .intro-slider .main-slider-nav i {
-    font-size: 24px;
+  .intro-slider .main-slider-nav svg {
+    width: 20%;
   }
 }
 
@@ -45735,8 +45748,8 @@ only screen and (max-width: 767px) {
     line-height: 60px;
   }
 
-  .intro-slider .main-slider-nav i {
-    font-size: 24px;
+  .intro-slider .main-slider-nav svg {
+    width: 20%;
   }
 }
 
@@ -45747,8 +45760,8 @@ only screen and (max-width: 767px) {
     line-height: 50px;
   }
 
-  .intro-slider .main-slider-nav i {
-    font-size: 24px;
+  .intro-slider .main-slider-nav svg {
+    width: 20%;
   }
 }
 
@@ -50175,3 +50188,38 @@ div#forgot-password {
 }
 
 /* video style end */
+
+/* style buttons download app start */
+
+a.link_click_of_down {
+  display: flex;
+  align-items: center;
+  border-radius: 13px;
+  border: 2px solid white;
+  margin-bottom: 3%;
+  justify-content: space-around;
+  padding: 1% 7% 0% 0%;
+  color: wheat;
+  transition: 1s;
+}
+
+a.link_click_of_down:hover {
+  background-color: #143166de;
+  color: #00aaeb;
+}
+
+img.img_downloadeng {
+  width: 30%;
+}
+
+a.link_click_of_down p {
+  margin: 0;
+  padding: 0;
+
+}
+
+a.link_click_of_down svg{
+  color: wheat;
+}
+
+/* style buttons download app end */
