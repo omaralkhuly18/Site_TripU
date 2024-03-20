@@ -50200,26 +50200,132 @@ a.link_click_of_down {
   justify-content: space-around;
   padding: 1% 7% 0% 0%;
   color: wheat;
+  overflow: hidden;
+  position: relative;
   transition: 1s;
 }
 
-a.link_click_of_down:hover {
+a.link_click_of_down::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  transition: all 1s ease;
+  border-radius: 5px;
+  z-index: 0;
+  transform: translate(-50%, -100%);
+}
+
+a.link_click_of_down:hover::before {
   background-color: #143166de;
   color: #00aaeb;
+  top: -50%;
+  transform: translate(-50%, 50%);
 }
 
 img.img_downloadeng {
   width: 30%;
+  position: relative;
+  z-index: 1;
 }
 
 a.link_click_of_down p {
   margin: 0;
   padding: 0;
-
+  position: relative;
+  z-index: 1;
 }
 
 a.link_click_of_down svg{
   color: wheat;
+  position: relative;
+  z-index: 1;
 }
+
+/* media style start */
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  img.img_downloadeng{
+    width: 25% !important;
+  }
+  a.link_click_of_down p,
+  a.link_click_of_down svg{
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  a.link_click_of_down{
+    height: 60px;
+  }
+  img.img_downloadeng{
+    width: 35% !important;
+  }
+  a.link_click_of_down p,
+  a.link_click_of_down svg{
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .footer-widget{
+     margin-left: 11%;
+  }
+  a.link_click_of_down{
+    padding: 1% 5% 0% 6%;
+    width: 85%;
+  }
+  img.img_downloadeng{
+    width: 25% !important;
+  }
+  a.link_click_of_down p,
+  a.link_click_of_down svg{
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 575px) and (min-width: 410px){
+  img.img_downloadeng{
+    width: 25% !important;
+  }
+  a.link_click_of_down p,
+  a.link_click_of_down svg{
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 406px) and (min-width: 378px) {
+  a.link_click_of_down{
+    height: 50px;
+  }
+  img.img_downloadeng{
+    width: 30% !important;
+  }
+  a.link_click_of_down p,
+  a.link_click_of_down svg{
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 378px) and (min-width: 250px) {
+ a.link_click_of_down{
+   padding: 1% 5% 0% 2%;
+   height: 50px;
+   width: 99%;
+ }
+ img.img_downloadeng{
+   width: 50% !important;
+ }
+ a.link_click_of_down svg{
+   font-size: 20px !important;
+ }
+
+ a.link_click_of_down p{
+  display: none;
+ }
+}
+/* media style end */
 
 /* style buttons download app end */

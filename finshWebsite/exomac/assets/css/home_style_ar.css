@@ -3,20 +3,22 @@
   font-family: 'Tajawal';
   src: url('../fonts/Tajawal/Tajawal-Medium.eot');
   src: url('../fonts/Tajawal/Tajawal-Medium.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Tajawal/Tajawal-Medium.woff2') format('woff2'),
-      url('../fonts/Tajawal/Tajawal-Medium.woff') format('woff'),
-      url('../fonts/Tajawal/Tajawal-Medium.ttf') format('truetype'),
-      url('../fonts/Tajawal/Tajawal-Medium.svg#Tajawal-Medium') format('svg');
+    url('../fonts/Tajawal/Tajawal-Medium.woff2') format('woff2'),
+    url('../fonts/Tajawal/Tajawal-Medium.woff') format('woff'),
+    url('../fonts/Tajawal/Tajawal-Medium.ttf') format('truetype'),
+    url('../fonts/Tajawal/Tajawal-Medium.svg#Tajawal-Medium') format('svg');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Cairo', sans-serif !important; */
-  font-family: "Tajawal", sans-serif !important;;
+  font-family: "Tajawal", sans-serif !important;
+  ;
 }
 
 .single-portfolio:hover .content {
@@ -867,7 +869,62 @@ div.content-personal {
   right: auto !important;
 }
 
+/* scroll top style end*/
+
 /* style buttons download app start */
 a.link_click_of_down {
   padding: 1% 0% 0% 7% !important;
 }
+
+img.img_downloadeng {
+  transform: scaleX(-1);
+  width: 27%;
+}
+
+a.link_click_of_down p{
+  font-size: 11px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  a.link_click_of_down {
+    padding: 1% 0% 0% 3% !important;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  img.img_downloadeng {
+    width: 30% !important;
+  }
+
+  a.link_click_of_down p,
+  a.link_click_of_down svg {
+    font-size: 16px !important;
+  }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .footer-widget {
+    margin-left: 0%;
+  }
+
+  a.link_click_of_down {
+    width: 98%;
+  }
+}
+
+
+@media screen and (max-width: 406px) and (min-width: 378px) {
+
+  a.link_click_of_down p,
+  a.link_click_of_down svg {
+    font-size: 13px !important;
+  }
+
+  a.link_click_of_down {
+    padding: 1% 0% 0% 5% !important;
+  }
+}
+
+
+/* style buttons download app end */
