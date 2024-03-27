@@ -125,7 +125,8 @@
               <div class="header-search-area ml-xl-7 ml-0">
                 <!-- Header Login Start -->
                 <div class="header-search">
-                  <a href="javascript:void(0)" class="header-search-toggle"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a href="javascript:void(0)" class="header-search-toggle"><i
+                      class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
                 <!-- Header Login End -->
               </div>
@@ -230,97 +231,19 @@
     </div>
     <!-- Main Search End -->
 
-    <!-- Slider/Intro Section Start -->
-    <div class="intro-slider-wrap section">
-      <div class="intro-slider swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="intro-section section overlay" data-bg-color="#000"
-              data-bg-image="finshWebsite/images/cars/trip1.jpg">
-              <div class="container">
-                <div class="row row-cols-lg-1 row-cols-1">
-                  <div class="col align-self-center">
-                    <div class="intro-content mt-xl-8 mt-lg-8 mt-md-8 mt-sm-8 mt-xs-8">
-                      <h2 class="title">
-                        Louons la voiture de vos rêves ici
-                      </h2>
-                      <div class="desc">
-                        <p>
-                          Nous sommes la meilleure agence de location de
-                          voitures qui vous aidera trouvez la voiture dont
-                          vous rêvez, trouvons il.
-                        </p>
-                      </div>
-                      <a href="usedApp_fr.html" class="btn btn-primary btn-hover-secondary">Commencer</a>
-                    </div>
-                  </div>
-                  <!-- Intro One Content End -->
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="intro-section section overlay" data-bg-color="#000"
-              data-bg-image="finshWebsite/images/cars/trip2.jpg">
-              <div class="container">
-                <div class="row row-cols-lg-1 row-cols-1">
-                  <!-- Intro One Content Start -->
-                  <div class="col align-self-center">
-                    <div class="intro-content mt-8">
-                      <h2 class="title">
-                        Consultez-vous beaucoup ? Nous sommes à votre service
-                        l'offre du chauffeur à la place
-                      </h2>
-                      <div class="desc">
-                        <p>
-                          Vous souhaitez vous déplacer avec un grand groupe de
-                          personnes? Prendre des vols TripU ; Nous pouvons
-                          transporter jusqu'à six personnes par destination.
-                        </p>
-                      </div>
-                      <a href="usedApp_fr.html" class="btn btn-primary btn-hover-secondary">Commencer</a>
-                    </div>
-                  </div>
-                  <!-- Intro One Content End -->
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="intro-section section overlay" data-bg-color="#000"
-              data-bg-image="finshWebsite/images/cars/trip3.jpg">
-              <div class="container">
-                <div class="row row-cols-lg-1 row-cols-1">
-                  <!-- Intro One Content Start -->
-                  <div class="col align-self-center max-mb-30">
-                    <div class="intro-content mt-8">
-                      <h2 class="title">
-                        Enfin les voyages dont vous avez besoin
-                      </h2>
-                      <div class="desc">
-                        <p>
-                          Trouvez un chauffeur qui acceptera votre devis ou
-                          acceptera l'offre du chauffeur à la place
-                        </p>
-                      </div>
-                      <a href="usedApp_fr.html" class="btn btn-primary btn-hover-secondary">Commencer</a>
-                    </div>
-                  </div>
-                  <!-- Intro One Content End -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="home-slider-prev swiper-button-prev main-slider-nav">
-          <i class="fa-solid fa-angle-left"></i>
-        </div>
-        <div class="home-slider-next swiper-button-next main-slider-nav">
-          <i class="fa-solid fa-angle-right"></i>
+    <!-- video Section Start -->
+    <div class="section section-padding padding_class">
+      <div class="videocontainer">
+        <!-- video controls start-->
+        <div id="videoContainer" class="video-container">
+          <video id="myVideo" autoplay muted loop>
+            <source src="finshWebsite/exomac/assets/media/video/video_tripU.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>
-    <!-- Slider/Intro Section End -->
+    <!-- video Section End -->
 
     <!-- About Section Start -->
     <div class="section section-padding">
@@ -382,34 +305,6 @@
       </div>
     </div>
     <!-- About Section End -->
-
-    <!-- video Section Start -->
-    <div class="section section-padding">
-      <div class="container">
-        <!-- Section Title Start -->
-        <div class="section-title text-center" data-aos="fade-up">
-          <h2 class="title">
-            Profitez de votre temps et acquérez des connaissances en regardant cette
-            vidéo divertissante.
-          </h2>
-        </div>
-        <!-- Section Title End 
-            https://www.youtube.com/watch?v=CI0VBlphodM
-            https://www.youtube.com/watch?v=MGnEdn1uvPY
-            -->
-        <div id="videoContainer" class="video-container">
-          <!-- <video controls>
-            <source src="finshWebsite/exomac/assets/media/video/TripU client.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video> -->
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/kvx59hac0RY?si=HQeGXJkKjZvnBanR"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!-- video Section End -->
 
     <!-- downloadeng Section Start -->
     <div class="section section-padding">
@@ -1291,7 +1186,10 @@
       </div>
     </div>
   </div>
-
+  <script>
+    const video = document.getElementById('myVideo');
+    video.play(); 
+  </script>
   <script src="finshWebsite/exomac/assets/js/vendor/vendor.min.js"></script>
   <script src="finshWebsite/exomac/assets/js/plugins/plugins.min.js"></script>
 

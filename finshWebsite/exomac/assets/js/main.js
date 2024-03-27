@@ -1,3 +1,6 @@
+
+// video.pause(); 
+
 (function ($) {
   "use strict";
 
