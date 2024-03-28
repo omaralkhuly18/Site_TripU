@@ -50148,9 +50148,12 @@ div#forgot-password {
   height: 500px;
 }
 
-/* .videocontainer {
-  margin-top: 6%;
-} */
+.videocontainer {
+  width: 95%;
+  border: 2px solid red;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
 
 .video-container #myVideo {
   position: absolute;
