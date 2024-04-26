@@ -44339,16 +44339,17 @@ textarea:focus {
 }
 
 .header-section.header-transparent {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 111;
+  border-bottom: 1px solid rgba(255, 255, 255);
 }
 
 .header-section.header-transparent .header-inner {
-  background-color: #00000066;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  background-color: transparent;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 6px 6px, rgb(0 0 0 / 51%) 0px 1px 6px 2px;
 }
 
 .header-section.header-light .header-login a {
